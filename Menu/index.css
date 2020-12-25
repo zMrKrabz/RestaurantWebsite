@@ -20,7 +20,7 @@ body {
   row-gap: 40px;
   justify-content: center;
   justify-items: center;
-  padding: 30px 50px 30px 50px;
+  padding: 0px 50px 0px 50px;
 }
 
 a {
@@ -92,12 +92,17 @@ nav {
   margin-bottom: 5px;
 }
 
+.dish {
+  margin-bottom: 3px;
+}
+
 .dishNumber {
   font-size: 18px;
 }
 
 .dishName {
   font-size: 20px;
+  margin: 0px 10px 0px 10px;
 }
 
 .dishPrice {
