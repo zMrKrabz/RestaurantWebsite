@@ -101,30 +101,34 @@ nav {
   margin: 5px;
 }
 
+.deliveryDisplay .subtitle {
+  margin-bottom: 40px;
+}
+
 .logos {
   display: grid;
   max-width: 300px;
   grid-template-columns: 1fr;
   column-gap: 37px;
-  row-gap: 20px;
+  row-gap: 40px;
 }
 
 #doordash-logo {
-  width: 119px;
-  height: 14px;
+  width: 204px;
+  height: 24px;
 }
 
 #grubhub-logo {
-  width: 103px;
-  height: 21px;
+  width: 206px;
+  height: 42px;
 }
 
 #postmates-logo {
-  width: 120px;
-  height: 60px;
+  width: 212px;
+  height: 106px;
 }
 
 #seamless-logo {
-  width: 103px;
-  height: 40px;
+  width: 203px;
+  height: 79px;
 }
