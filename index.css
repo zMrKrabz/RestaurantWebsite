@@ -1,0 +1,129 @@
+:root {
+  --primaryTitle: #bd2f2e;
+  --primaryAccent: #f2ae02;
+  --subtitle: #ad4800;
+  --secondaryTitle: #de4b45;
+  --secondaryAccent: #fbce80;
+  --textBtnColor: #020831;
+  --text: #d8742d;
+}
+
+html {
+  font-family: "Roboto Slab";
+  background-color: #fdeed8;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 0px 20px 50px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textBtnColor);
+}
+
+.highlight {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  background: var(--primaryAccent);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--primaryTitle);
+  padding-left: 10px;
+  margin-bottom: 0px;
+  /* box-shadow: -15px -15px 3px 0px rgba(242, 174, 2, 1); */
+  max-width: 500px;
+}
+
+.subtitle {
+  color: var(--subtitle);
+  font-weight: medium;
+  font-size: 32px;
+  text-align: center;
+}
+
+.address h1 {
+  margin: 0px;
+}
+
+nav {
+  justify-items: center;
+}
+
+.btnText {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.btnText:hover {
+  cursor: pointer;
+}
+
+.storefrontImg {
+  justify-self: center;
+  background-image: url("./assets/storefront.png");
+  min-width: 200px;
+  max-width: 400px;
+  min-height: 400px;
+  max-height: 600px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 10px 5px 0px rgba(242, 174, 2, 1);
+}
+
+.text {
+  font-size: 16px;
+  color: var(--text);
+}
+
+.takeoutDisplay .text {
+  max-width: 300px;
+}
+
+.phoneNumber {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.logos {
+  display: grid;
+  max-width: 300px;
+  grid-template-columns: 1fr;
+  column-gap: 37px;
+  row-gap: 20px;
+}
+
+#doordash-logo {
+  width: 119px;
+  height: 14px;
+}
+
+#grubhub-logo {
+  width: 103px;
+  height: 21px;
+}
+
+#postmates-logo {
+  width: 120px;
+  height: 60px;
+}
+
+#seamless-logo {
+  width: 103px;
+  height: 40px;
+}

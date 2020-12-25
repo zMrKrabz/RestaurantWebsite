@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Supreme Restaurant</title>
+  </head>
+
+  <body>
+    <h1 class="title">Supreme Restaurant</h1>
+    <!-- <div class="highlight"></div> -->
+    <a
+      class="address"
+      target="_blank"
+      href="https://www.google.com/maps/place/100+Mott+St,+New+York,+NY+10013/@40.7172594,-73.9994059,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25a278420dcf1:0x5f90be4a80be0260!8m2!3d40.7172594!4d-73.9972172"
+    >
+      <h1>100 Mott St</h1>
+      <h1>New York, NY 10013</h1>
+    </a>
+
+    <nav>
+      <button
+        class="menuRedirect btnText"
+        onclick="location.href = './Menu/index.html'"
+      >
+        Menu
+      </button>
+      <button
+        class="orderNowRedirect btnText"
+        onclick="location.href = '#takeoutDisplay'"
+      >
+        Order Now
+      </button>
+    </nav>
+
+    <div class="storefrontImg"></div>
+
+    <div class="takeoutDisplay" id="takeoutDisplay">
+      <h1 class="subtitle">Takeout</h1>
+      <p class="text">
+        Because of COVID-19, we are only doing takeout and delivery. To place an
+        order for takeout, please call the number below. For delivery, feel free
+        to use one of the delivery services below.
+      </p>
+      <h2 class="phoneNumber">(212) 966-3988</h2>
+      <h2 class="phoneNumber">(212) 966-9698</h2>
+    </div>
+
+    <div class="deliveryDisplay">
+      <h1 class="subtitle">Delivery</h1>
+      <div class="logos">
+        <a
+          target="_blank"
+          href="https://www.doordash.com/store/supreme-restaurant-manhattan-1366836/en-US"
+        >
+          <img src="./assets/DoorDash_Logo.svg" id="doordash-logo" />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.grubhub.com/restaurant/supreme-restaurant-100-mott-st-new-york/2457335"
+        >
+          <img src="./assets/GrubHub_Logo.svg" id="grubhub-logo" />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.seamless.com/menu/supreme-restaurant-100-mott-st-new-york/2457335"
+        >
+          <img src="./assets/Seamless_logo.svg" id="seamless-logo" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

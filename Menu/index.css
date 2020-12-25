@@ -1,0 +1,100 @@
+:root {
+  --primaryTitle: #bd2f2e;
+  --primaryAccent: #f2ae02;
+  --subtitle: #ad4800;
+  --secondaryTitle: #de4b45;
+  --secondaryAccent: #fbce80;
+  --textBtnColor: #020831;
+  --text: #d8742d;
+}
+
+html {
+  font-family: "Roboto Slab";
+  background-color: #fdeed8;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  justify-content: center;
+  justify-items: center;
+  padding: 30px 50px 30px 50px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textBtnColor);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--primaryTitle);
+  padding-left: 10px;
+  margin-bottom: 0px;
+  max-width: 500px;
+}
+
+.subtitle {
+  color: var(--subtitle);
+  font-weight: medium;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.secondaryTitle {
+  color: var(--secondaryTitle);
+  font-weight: medium;
+  font-size: 40px;
+}
+
+.address h1 {
+  margin: 0px;
+}
+
+nav {
+  text-align: center;
+}
+
+.btnText {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btnText:hover {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 5px;
+  max-width: 400px;
+  justify-content: center;
+  margin: 0px;
+}
+
+.secondaryTitle {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.dishNumber {
+  font-size: 16px;
+}
+
+.dishName {
+  font-size: 18px;
+}
+
+.dishPrice {
+  font-size: 14px;
+  color: #16584a;
+}
