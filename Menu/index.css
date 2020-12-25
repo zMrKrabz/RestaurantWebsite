@@ -57,6 +57,9 @@ a {
 
 nav {
   text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
 }
 
 .btnText {
@@ -78,6 +81,9 @@ nav {
   row-gap: 5px;
   max-width: 400px;
   justify-content: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
   margin: 0px;
 }
 
@@ -87,14 +93,14 @@ nav {
 }
 
 .dishNumber {
-  font-size: 16px;
-}
-
-.dishName {
   font-size: 18px;
 }
 
+.dishName {
+  font-size: 20px;
+}
+
 .dishPrice {
-  font-size: 14px;
+  font-size: 18px;
   color: #16584a;
 }
